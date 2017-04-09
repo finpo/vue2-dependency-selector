@@ -64,8 +64,8 @@ prop | required | type | desc
 v-model |       | Object | data you want collect , you can pass data for default select . you don't need pass all of data .
 source | true | Array (Object in Array) | your selector options data , one record one row .
 selectors | true | Array (String in Array) | your selector will use this array let user choose .
-emptyhint |      | String , Array (String Array) | option empty value text .
-classes   |      | String , Array (String Array) | you can defined class name you want for selector ( everyone or each ) .
+emptyhint |      | String , Array (String in Array) | option empty value text .
+classes   |      | String , Array (String in Array) | you can defined class name you want for selector ( everyone or each ) .
 
 ## online demo
 [demo](https://vue2-dependency-selector.surge.sh/)
